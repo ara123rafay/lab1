@@ -10,6 +10,9 @@ public class CalculatorTest {
         assertEquals(5, calculator.add(2, 3));
         assertEquals(-1, calculator.add(-4, 3));
         assertEquals(0, calculator.add(0, 0));
+	     assertEquals(5, calculator.add(2, 3));
+        assertEquals(-1, calculator.add(-4, 3));
+        assertEquals(0, calculator.add(0, 0));
     }
 
     private void assertEquals(int i, Object add) {
